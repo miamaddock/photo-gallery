@@ -1,12 +1,50 @@
 body{
-  background-color: ##F9FFFA;
+  background-color: #F9FFFA;
+
 }
 img {
   height: 300px;
   width: 300px;
   object-fit: cover;
-  justify-content: space-between;
+
 }
 h1{
-
+  color: black;
+  font-size: 36px;
+  background-color: #F0F1F1;
+  font-family: AppleGothic;
+  height: 100px;
+  text-align: center;
+}
+p{
+  font-family: AppleGothic;
+}
+body{
+  color: black;
+  background-color: white;
+}
+section{
+  object-fit: cover;
+  align-items: center;
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+article{
+  display: flex;
+  justify-content:space-around;
+}
+div{
+  /* display: flex;
+  justify-content: space-around; */
+  padding: 15px;
+}
+@media screen and (max-width: 750px){
+  img{
+    width: 100px;
+    height: 100px;
+  }
 }
