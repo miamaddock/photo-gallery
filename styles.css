@@ -1,0 +1,12 @@
+body{
+  background-color: ##F9FFFA;
+}
+img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  justify-content: space-between;
+}
+h1{
+
+}
